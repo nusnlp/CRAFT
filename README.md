@@ -2,7 +2,7 @@
 `pip install -r requirements.txt`
 
 ### ConsTRev Dataset Creation Pipeline:
-Generate the ConsTRev's constraint instruction with: `put_constraint.py`
+Generate the ConsTRev's constraint instruction with: `python put_constraint.py`
 
 ### TRIPS:
 
