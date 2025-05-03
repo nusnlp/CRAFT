@@ -26,13 +26,8 @@ def run_mcts(item, thread_results, thread_id, args, reward_model):
     test_input = item["test_input"]
     # docs = sample["docs"]
     ori_text = item["other_info"]["input_content"]
-    
-    tool_calls = item['tool_test_result']['constraint_info']
-    tool_list = []
-    for idx in range(len(tool_calls)):
-        tool_list.append(tool_calls[idx]['function_call'])
 
-    # tool_list = item['tool_test_result']['tool_list_response']['simpo_iter4']
+    tool_list = item['tool_test_result']['tool_list_response']['simpo_iter4']
     initial_state = [{'role': 'user', 'content': test_input}]
     try:
         agent = Agent(

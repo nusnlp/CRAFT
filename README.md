@@ -19,8 +19,10 @@ Build the planner:
 5. Iterate through steps 4 and 5.
 
 Run Search:
-1. Go to the MCTS folder
-2. Pass in the path for the planner and reviser in the `run.sh` file
-3. run `bash run.sh` script
+1. Go to the MCTS folder.
+2. Pass in the path for the planner and reviser in the `run.sh` file.
+3. run `bash run.sh` script.
 
 ### Test Data and Predictions:
+1. Test data is in `data/test_input` folder.
+2. Prediction data is in `data/output` folder.
