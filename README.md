@@ -16,7 +16,7 @@ Build the planner:
 4. Enhance the planner via self-training:
     a. Go to `align/runs` folder.
     b. Run `bash llama3_instruct_cpo_simpo.sh` script.
-5. Iterate through steps 4 and 5.
+5. Iterate through steps 3 and 4.
 
 Run Search:
 1. Go to the MCTS folder.
