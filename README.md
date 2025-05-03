@@ -1,5 +1,5 @@
 ### ConsTRev:
-Generate the ConsTRev's constraint with: `put_constraint.py'
+Generate the ConsTRev's constraint instruction with: `put_constraint.py`
 
 ### TRIPS:
 
