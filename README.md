@@ -1,4 +1,7 @@
-### ConsTRev:
+### Install Packages:
+`pip install -r requirements.txt`
+
+### ConsTRev Dataset Creation Pipeline:
 Generate the ConsTRev's constraint instruction with: `put_constraint.py`
 
 ### TRIPS:
@@ -19,3 +22,5 @@ Run Search:
 1. Go to the MCTS folder
 2. Pass in the path for the planner and reviser in the `run.sh` file
 3. run `bash run.sh` script
+
+### Test Data and Predictions:
