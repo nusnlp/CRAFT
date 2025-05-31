@@ -26,3 +26,17 @@ Run Search:
 ### Test Data and Predictions:
 1. Test data is in `data/test_input` folder.
 2. Prediction data is in `data/output` folder.
+
+## Citation
+
+If you found our paper or code useful, please cite as:
+
+```
+@inproceedings{cao-ng-2025-craft,
+    title = "A Constrained Text Revision Agent via Iterative Planning and Searching",
+    author = "Cao, Hannan  and
+      Ng, Hwee Tou",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    year = "2025",
+}
+```
